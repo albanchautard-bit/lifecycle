@@ -1,0 +1,15 @@
+{
+  "Tours": {
+    "sharedInfrastructure": [
+      "backup_004", "backup_008", "backup_016", "backup_013",
+      "domain_006", "domain_003", "oracle_003", "network_008",
+      "network_001", "storage_007", "storage_006",
+      "virtualization_001", "virtualization_003"
+    ],
+    "applicationInfrastructureOnPremise": [
+      "onprem_001", "onprem_002", "onprem_004",
+      "onprem_007", "onprem_008"
+    ],
+    "applicationInfrastructureCloud": []
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "metadata": {
+    "title": "MARS Core v2 based on Siemens Op. Ex. Ph. 2305 - Infrastructure obsolescence timeline",
+    "version": "1.0",
+    "generatedDate": "2025-11-07"
+  },
+  "sharedInfrastructure": {
+    "section": "SHARED_INFRASTRUCTURE",
+    "components": [
+      {
+        "id": "network_001",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Core switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "C9500-48Y4C",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "network_002",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Core switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "WS-C4500X-32",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "10/31/2025"
+      },
+      {
+        "id": "network_003",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Core switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "WS-C3850-24XS-E",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "4/30/2027"
+      },
+      {
+        "id": "network_004",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Core switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "WS-C3850-24S-S",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "4/30/2027"
+      },
+      {
+        "id": "network_005",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Core switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "C9600",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "network_006",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Nexus Switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "N9K-C93180YC-FX-24",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "7/31/2029"
+      },
+      {
+        "id": "network_007",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Nexus Switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "N9K-C93180YC-FX3",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "network_008",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Nexus Switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "N9K-C93180YC-EX-24",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "8/31/2027"
+      },
+      {
+        "id": "network_009",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Nexus Switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "N9K-C93240YC-FX2",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "network_010",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Nexus Switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "N9K-C93108TC-FX3P",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "network_011",
+        "subCategory": "NETWORK DEVICES",
+        "category": "Network",
+        "component": "Nexus Switch",
+        "type": "Network switch",
+        "location": "On Premise",
+        "model": "N9K-C93180YC-EX",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "8/9/2027"
+      },
+      {
+        "id": "storage_001",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Netapp E-series",
+        "type": "Mass Storage Device",
+        "location": "On Premise",
+        "model": "E2800",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "9/30/2030"
+      },
+      {
+        "id": "storage_002",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Netapp E-series",
+        "type": "Mass Storage Device",
+        "location": "On Premise",
+        "model": "E2824",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "9/30/2030"
+      },
+      {
+        "id": "storage_003",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Metrocluster MCC",
+        "type": "Mass Storage Device",
+        "location": "On Premise",
+        "model": "AFF_150",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "storage_004",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Metrocluster MCC",
+        "type": "Mass Storage Device",
+        "location": "On Premise",
+        "model": "AFF_250",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "storage_005",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Metrocluster MCC",
+        "type": "Mass Storage Device",
+        "location": "On Premise",
+        "model": "AFF A400",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "storage_006",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "MSA array",
+        "type": "Mass Storage Device",
+        "location": "On Premise",
+        "model": "MSA1050",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "7/31/2028"
+      },
+      {
+        "id": "storage_007",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Brocade",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "G610",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "11/30/2030"
+      },
+      {
+        "id": "storage_008",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "ATTO",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "ATTO FIBREBR.7600N",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "storage_009",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Broadcom",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "BROADCOM BES-53248",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "storage_010",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Brocade",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "BROCADE 6520",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "9/21/2027"
+      },
+      {
+        "id": "storage_011",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Brocade",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "BROCADE G720",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "storage_012",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Cisco",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "CISCO DS-C9132T-K9",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "storage_013",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Cisco",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "CISCO MDS 9148S",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "8/31/2028"
+      },
+      {
+        "id": "storage_014",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "Cisco",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "CISCO MDS 9396S",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "6/30/2027"
+      },
+      {
+        "id": "storage_015",
+        "subCategory": "STORAGE DEVICES",
+        "category": "Storage",
+        "component": "HP",
+        "type": "San Switch",
+        "location": "On Premise",
+        "model": "HP SN3600B",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "backup_001",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 3540",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "backup_002",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 3620",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "4/30/2027"
+      },
+      {
+        "id": "backup_003",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 3640",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "7/31/2027"
+      },
+      {
+        "id": "backup_004",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 3660",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "7/31/2031"
+      },
+      {
+        "id": "backup_005",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 4500",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "backup_006",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 5100",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "backup_007",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 5200",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "4/30/2027"
+      },
+      {
+        "id": "backup_008",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 5250",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "4/30/2027"
+      },
+      {
+        "id": "backup_009",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 5260",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "backup_010",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "StoreOnce",
+        "type": "Backup Appliance",
+        "location": "On Premise",
+        "model": "StoreOnce 5650",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "4/30/2027"
+      },
+      {
+        "id": "backup_011",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Media Server",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen9",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "7/1/2024"
+      },
+      {
+        "id": "backup_012",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Media Server",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen10",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "3/30/2028"
+      },
+      {
+        "id": "backup_013",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Media Server",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen10+",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "3/31/2030"
+      },
+      {
+        "id": "backup_014",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Media Server",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen11",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "1/31/2031"
+      },
+      {
+        "id": "backup_015",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Media Server",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windows 2016",
+        "endOfStandardSupport": "11/1/2022",
+        "endOfExtendedSupport": "1/11/2027"
+      },
+      {
+        "id": "backup_016",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Media Server",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windows 2019",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "backup_017",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Media Server",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windows 2022",
+        "endOfStandardSupport": "10/13/2026",
+        "endOfExtendedSupport": "10/14/2031"
+      },
+      {
+        "id": "backup_018",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Media Server",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windows 2025",
+        "endOfStandardSupport": "11/13/2029",
+        "endOfExtendedSupport": "11/14/2025"
+      },
+      {
+        "id": "backup_019",
+        "subCategory": "BACKUP DEVICES",
+        "category": "Backup",
+        "component": "Commvault",
+        "type": "Backup software",
+        "location": "On Premise",
+        "model": "",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": null
+      },
+      {
+        "id": "virtualization_001",
+        "subCategory": "VIRTUALIZATION DEVICES",
+        "category": "Virtu",
+        "component": "Vxrail",
+        "type": "Hyperconverged Infra",
+        "location": "On Premise",
+        "model": "P570F",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "9/30/2027"
+      },
+      {
+        "id": "virtualization_002",
+        "subCategory": "VIRTUALIZATION DEVICES",
+        "category": "Virtu",
+        "component": "Vxrail",
+        "type": "Hyperconverged Infra",
+        "location": "On Premise",
+        "model": "P670F",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "6/30/2030"
+      },
+      {
+        "id": "virtualization_003",
+        "subCategory": "VIRTUALIZATION DEVICES",
+        "category": "Virtu",
+        "component": "Vxrail",
+        "type": "Hyperconverged Infra",
+        "location": "On Premise",
+        "model": "VP-760",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "virtualization_004",
+        "subCategory": "VIRTUALIZATION DEVICES",
+        "category": "Virtu",
+        "component": "Vsan Ready",
+        "type": "Hyperconverged Infra",
+        "location": "On Premise",
+        "model": "R660",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "virtualization_005",
+        "subCategory": "VIRTUALIZATION DEVICES",
+        "category": "Virtu",
+        "component": "Vsan Ready",
+        "type": "Hyperconverged Infra",
+        "location": "On Premise",
+        "model": "R760",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "Not yet announed"
+      },
+      {
+        "id": "virtualization_006",
+        "subCategory": "VIRTUALIZATION DEVICES",
+        "category": "Virtu",
+        "component": "VmWare",
+        "type": "Operating system",
+        "location": "On Premise",
+        "model": "ESXi 6.x",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "11/15/2023"
+      },
+      {
+        "id": "virtualization_007",
+        "subCategory": "VIRTUALIZATION DEVICES",
+        "category": "Virtu",
+        "component": "VmWare",
+        "type": "Operating system",
+        "location": "On Premise",
+        "model": "ESXi 7.x",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "4/2/2027"
+      },
+      {
+        "id": "virtualization_008",
+        "subCategory": "VIRTUALIZATION DEVICES",
+        "category": "Virtu",
+        "component": "VmWare",
+        "type": "Operating system",
+        "location": "On Premise",
+        "model": "ESXi 8.x",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "10/11/2029"
+      },
+      {
+        "id": "domain_001",
+        "subCategory": "DOMAIN CONTROLLERS",
+        "category": "Domain controller",
+        "component": "Hyper-V Server",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen9",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "7/1/2024"
+      },
+      {
+        "id": "domain_002",
+        "subCategory": "DOMAIN CONTROLLERS",
+        "category": "Domain controller",
+        "component": "Hyper-V Server",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen10",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "3/30/2028"
+      },
+      {
+        "id": "domain_003",
+        "subCategory": "DOMAIN CONTROLLERS",
+        "category": "Domain controller",
+        "component": "Hyper-V Server",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen10+",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "3/31/2030"
+      },
+      {
+        "id": "domain_004",
+        "subCategory": "DOMAIN CONTROLLERS",
+        "category": "Domain controller",
+        "component": "Hyper-V Server",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen11",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "1/31/2031"
+      },
+      {
+        "id": "domain_005",
+        "subCategory": "DOMAIN CONTROLLERS",
+        "category": "Domain controller",
+        "component": "Virtual DC",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windowsdows 2016",
+        "endOfStandardSupport": "11/1/2022",
+        "endOfExtendedSupport": "1/12/2027"
+      },
+      {
+        "id": "domain_006",
+        "subCategory": "DOMAIN CONTROLLERS",
+        "category": "Domain controller",
+        "component": "Virtual DC",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windowsdows 2019",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "domain_007",
+        "subCategory": "DOMAIN CONTROLLERS",
+        "category": "Domain controller",
+        "component": "Virtual DC",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windowsdows 2022",
+        "endOfStandardSupport": "10/13/2026",
+        "endOfExtendedSupport": "10/14/2031"
+      },
+      {
+        "id": "domain_008",
+        "subCategory": "DOMAIN CONTROLLERS",
+        "category": "Domain controller",
+        "component": "Virtual DC",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windowsdows 2025",
+        "endOfStandardSupport": "11/13/2029",
+        "endOfExtendedSupport": "11/14/2034"
+      },
+      {
+        "id": "oracle_001",
+        "subCategory": "Oracle DB hosting",
+        "category": "RedHat Pacemaker cluster",
+        "component": "Unix cluster node",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen9",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "7/1/2024"
+      },
+      {
+        "id": "oracle_002",
+        "subCategory": "Oracle DB hosting",
+        "category": "RedHat Pacemaker cluster",
+        "component": "Unix cluster node",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen10",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "3/30/2028"
+      },
+      {
+        "id": "oracle_003",
+        "subCategory": "Oracle DB hosting",
+        "category": "RedHat Pacemaker cluster",
+        "component": "Unix cluster node",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen10+",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "3/31/2030"
+      },
+      {
+        "id": "oracle_004",
+        "subCategory": "Oracle DB hosting",
+        "category": "RedHat Pacemaker cluster",
+        "component": "Unix cluster node",
+        "type": "Physical Server",
+        "location": "On Premise",
+        "model": "DL380 Gen11",
+        "endOfStandardSupport": null,
+        "endOfExtendedSupport": "1/31/2031"
+      }
+    ]
+  },
+  "applicationInfrastructureOnPremise": {
+    "section": "APPLICATION_INFRASTRUCTURE_ON_PREMISE",
+    "components": [
+      {
+        "id": "onprem_001",
+        "category": "Mars Siemens servers",
+        "component": "Application - UAF - SAMS",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "onprem_002",
+        "category": "Citrix Hybrid Cloud Core Model",
+        "component": "Storefront - Cloud controller - VDA",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "onprem_003",
+        "category": "Optional",
+        "component": "MARS MQTT Broker Server",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "onprem_004",
+        "category": "Optional",
+        "component": "Jumpbox",
+        "type": "Virtual server",
+        "location": "On Premise",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "onprem_005",
+        "category": "Optional",
+        "component": "MARS eLogBook Server",
+        "type": "Azure VM standard F8as_V2 or better",
+        "location": "Azure Cloud",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "onprem_006",
+        "category": "Optional",
+        "component": "MARS eLogBook PostGreSQL DB",
+        "type": "Database",
+        "location": "Azure Cloud",
+        "model": "PostgreSQL 16",
+        "endOfStandardSupport": "11/11/2027",
+        "endOfExtendedSupport": "11/11/2027"
+      },
+      {
+        "id": "onprem_007",
+        "category": "ORACLE Cluster",
+        "component": "Oracle Database",
+        "type": "Database",
+        "location": "On Premise",
+        "model": "Oracle 19c",
+        "endOfStandardSupport": "12/31/2029",
+        "endOfExtendedSupport": "12/31/2029"
+      },
+      {
+        "id": "onprem_008",
+        "category": "ORACLE Cluster",
+        "component": "RedHat Pacemaker cluster node",
+        "type": "Operating system",
+        "location": "On Premise",
+        "model": "RHEL 8.x",
+        "endOfStandardSupport": "12/31/2026",
+        "endOfExtendedSupport": "5/30/2028"
+      }
+    ]
+  },
+  "applicationInfrastructureCloud": {
+    "section": "APPLICATION_INFRASTRUCTURE_CLOUD",
+    "components": [
+      {
+        "id": "cloud_001",
+        "category": "Mars Siemens servers",
+        "component": "Application - UAF",
+        "type": "Azure VM Standard D8as v5 or better.",
+        "location": "Azure Cloud",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "cloud_002",
+        "category": "Mars Siemens servers",
+        "component": "SAMS server",
+        "type": "Azure VM Standard D4as v5 or better.",
+        "location": "Azure Cloud",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "cloud_003",
+        "category": "Citrix Hybrid Cloud Core Model",
+        "component": "VDA servers",
+        "type": "Azure VM Standard D4as v5 or better.",
+        "location": "Azure Cloud",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "cloud_004",
+        "category": "Optional",
+        "component": "MARS eLogBook Server",
+        "type": "Azure VM standard F8as_V2 or better",
+        "location": "Azure Cloud",
+        "model": "Windowsdows 2019 ",
+        "endOfStandardSupport": "1/9/2024",
+        "endOfExtendedSupport": "1/9/2029"
+      },
+      {
+        "id": "cloud_005",
+        "category": "Optional",
+        "component": "MARS eLogBook PostGreSQL DB",
+        "type": "Database",
+        "location": "Azure Cloud",
+        "model": "PostgreSQL 16",
+        "endOfStandardSupport": "11/11/2027",
+        "endOfExtendedSupport": "11/11/2027"
+      },
+      {
+        "id": "cloud_006",
+        "category": "ORACLE Cluster",
+        "component": "Database",
+        "type": "Database",
+        "location": "Azure Cloud",
+        "model": "Oracle 19c",
+        "endOfStandardSupport": "12/31/2029",
+        "endOfExtendedSupport": "12/31/2029"
+      }
+    ]
+  }
+}

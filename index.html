@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MARS Core v2 - Infrastructure Obsolescence Timeline</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header-container">
+    <h1>MARS Core v2 based on Siemens Op. Ex. Ph. 2305<br>Infrastructure Obsolescence Timeline</h1>
+    <div class="logo-container">
+      <!-- Replace with your logo file name in the repo -->
+      <img src="My-logo CMYK JPG.jpg" alt="ALBAN Logo">
+    </div>
+  </div>
+
+  <div class="toggle-container">
+    <button class="toggle-btn active" data-section="sharedInfrastructure">Shared Mars Infrastructure</button>
+    <button class="toggle-btn" data-section="applicationInfrastructureOnPremise">Application Infra (On Prem)</button>
+    <button class="toggle-btn" data-section="applicationInfrastructureCloud">Application Infra (Azure)</button>
+
+    <div class="dropdown-container">
+      <button class="toggle-btn dropdown-btn" id="siteDropdown">
+        Sites <span class="dropdown-arrow">▼</span>
+      </button>
+      <div class="dropdown-menu" id="siteDropdownMenu">
+        <div class="dropdown-item active" data-site="all">All Sites</div>
+        <!-- site items get populated dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <button class="legend-btn active" data-filter="all">
+      <span class="legend-label">All</span>
+      <span class="legend-counter">0</span>
+    </button>
+    <button class="legend-btn" data-filter="supported">
+      <span class="legend-color" style="background-color: #2ecc71;"></span>
+      <span class="legend-label">Supported</span>
+      <span class="legend-counter">0</span>
+    </button>
+    <button class="legend-btn" data-filter="extended">
+      <span class="legend-color" style="background-color: #f39c12;"></span>
+      <span class="legend-label">Extended Support</span>
+      <span class="legend-counter">0</span>
+    </button>
+    <button class="legend-btn" data-filter="unsupported">
+      <span class="legend-color" style="background-color: #e74c3c;"></span>
+      <span class="legend-label">Out of Support</span>
+      <span class="legend-counter">0</span>
+    </button>
+  </div>
+
+  <div class="section">
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Type</th>
+          <th>Location</th>
+          <th>Model</th>
+          <th class="timeline-header">
+            <div class="year-headers">
+              <div class="year-header">2025</div>
+              <div class="year-header">2026</div>
+              <div class="year-header">2027</div>
+              <div class="year-header">2028</div>
+              <div class="year-header">2029</div>
+              <div class="year-header">2030</div>
+              <div class="year-header">2031</div>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="tooltip" id="tooltip" aria-hidden="true"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
